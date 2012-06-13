@@ -2,7 +2,7 @@
   "name": "hogan"
   , "description": "Hogan.js NPM package for express 3.x"
   , "version": "0.0.1"
-  , "keywords": ["mustache", "template", Hogan.js", "hogan"]
+  , "keywords": ["mustache", "template", "Hogan.js", "hogan"]
   , "main": "index"
   , "homepage": "https://github.com/nullfirm/hogan.git"
   , "author": {
