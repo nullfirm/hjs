@@ -1,17 +1,17 @@
 {
-  "name": "hogan"
+  "name": "hjs"
   , "description": "Hogan.js NPM package for express 3.x"
   , "version": "0.0.1"
-  , "keywords": ["mustache", "template", "Hogan.js", "hogan"]
+  , "keywords": ["mustache", "template", "Hogan.js", "hogan", "hjs"]
   , "main": "index"
-  , "homepage": "https://github.com/nullfirm/hogan.git"
+  , "homepage": "https://github.com/nullfirm/hjs.git"
   , "author": {
     "name" : "Min-su Ok"
     , "email" : "nullfirm@gmail.com"
   }
   , "repository": {
     "type": "git"
-    , "url": "https://github.com/nullfirm/hogan.git"
+    , "url": "https://github.com/nullfirm/hjs.git"
   }
   , "licenses": [
     { "type": "Apache-2.0"
@@ -21,5 +21,4 @@
   , "dependencies": {
     "hogan.js" : "2.0.0"
   }
-  , "bin" : { "hogan" : "./bin/hogan" }
 }
