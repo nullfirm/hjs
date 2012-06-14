@@ -15,7 +15,7 @@ hjs
  Create express app :
 
     $ express /tmp/testapp
-    $ cd /tmp/testapp
+    $ cd /tmp/testapp/
 
  Edit package.json :
 
@@ -29,6 +29,25 @@ hjs
 ```
 
     $ npm install
+
+ Edit app.js :
+
+```app.js
+    app.set('view engine', 'hjs');
+```
+
+ Make views/index.hjs :
+
+```index.hjs
+    <html>
+    <head>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <p>{{ title }}</p>
+    </body>
+    </html>
+```
 
  Start server :
 
