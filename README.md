@@ -1,10 +1,10 @@
-Hogan
+hjs
 =====
 [Hogan.js](http://twitter.github.com/hogan.js/) NPM package for [express](http://expressjs.com/) 3.x
 
 ## Installation
 
-    $ npm install -g hogan
+    $ npm install -g hjs
 
 ## Quick Start (not yet)
 
