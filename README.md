@@ -8,7 +8,32 @@ hjs
 
 ## Quick Start (not yet)
 
+ Install Express :
 
+    $ npm install -g express@3.0
+
+ Create express app :
+
+    $ express /tmp/testapp
+    $ cd /tmp/testapp
+
+ Edit package.json :
+
+    $ vi package.json
+
+```package.json   
+    "dependencies": {
+        "express": "3.0.0beta2",
+        "hjs": "*"
+    }
+```
+
+    $ npm install
+
+ Start server :
+
+    $ node app
+    
     
 ## More Information
  [express](http://expressjs.com/) is Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
