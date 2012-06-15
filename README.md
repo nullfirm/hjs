@@ -4,9 +4,9 @@ hjs
 
 ## Installation
 
-    $ npm install -g hjs
+    $ npm install -g express@3.0  hjs
 
-## Quick Start (not yet)
+## Quick Start
 
  Install Express :
 
