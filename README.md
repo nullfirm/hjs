@@ -1,10 +1,10 @@
-express-hogan (hjs)
+hjs
 =====
 [Hogan.js](http://twitter.github.com/hogan.js/) NPM package for [express](http://expressjs.com/) 3.x
 
 ## Installation
 
-    $ npm install -g express@3.0  express-hogan
+    $ npm install -g express@3.0  hjs
 
 ## Quick Start
 
@@ -36,7 +36,7 @@ express-hogan (hjs)
 ```package.json   
     "dependencies": {
         "express": "3.0.0",
-        "express-hogan": "*"
+        "hjs": "*"
     }
 ```
 

@@ -4,7 +4,7 @@
   , "version": "0.0.6"
   , "keywords": ["mustache", "template", "hogan.js", "hogan", "hjs", "express", "express-hogan"]
   , "main": "index"
-  , "homepage": "https://github.com/nullfirm/express-hogan.git"
+  , "homepage": "https://github.com/nullfirm/hjs.git"
   , "author": "Min-su Ok <nullfirm@gmail.com>"
   , "contributors": [ 
     { "name": "Min-su Ok", "email": "nullfirm@gmail.com" } 
@@ -12,7 +12,7 @@
   ]
   , "repository": {
     "type": "git"
-    , "url": "https://github.com/nullfirm/express-hogan.git"
+    , "url": "https://github.com/nullfirm/hjs.git"
   }
   , "licenses": [
     { "type": "Apache-2.0"
