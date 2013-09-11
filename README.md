@@ -18,7 +18,7 @@ express-hogan (hjs)
     $ cd /tmp/testapp/
     & npm install
 
-## Manual Create App
+## Manual Start
 
  Install Express :
 
