@@ -33,39 +33,67 @@ hjs
 
     $ vi package.json
 
-```package.json   
-    "dependencies": {
-        "express": "3.0.0",
-        "hjs": "*"
-    }
+```json
+"dependencies": {
+    "express": "3.0.0",
+    "hjs": "*"
+}
 ```
 
     $ npm install
 
  Edit app.js :
 
-```app.js
-    app.set('view engine', 'hjs');
+```js
+app.set('view engine', 'hjs');
 ```
 
  Make views/index.hjs :
 
-```index.hjs
-    <html>
-    <head>
-        <title>{{ title }}</title>
-    </head>
-    <body>
-        <p>{{ title }}</p>
-    </body>
-    </html>
+```html
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <p>{{ title }}</p>
+</body>
+</html>
 ```
 
  Start server :
 
     $ node app
-    
-    
+
+## Partials
+index.hjs
+```html
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <p>{{ title }}</p>
+    {{> footer }}
+</body>
+</html>
+```
+footer.hjs
+```html
+<div>My awesome footer</div>
+```
+To use a partial once:
+```js
+res.render('index', {
+    title: 'My Test App',
+    partials: {footer: 'footer'}
+});
+```
+To include a partial on every page:
+```js
+app.set('partials', {footer: 'footer'});
+```
+
 ## More Information
  [express](http://expressjs.com/) is Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
