@@ -1,7 +1,7 @@
 {
   "name": "hjs"
   , "description": "Hogan.js NPM package for express 3.x"
-  , "version": "0.0.6"
+  , "version": "0.0.7"
   , "keywords": ["mustache", "template", "hogan.js", "hogan", "hjs", "express", "express-hogan"]
   , "main": "index"
   , "homepage": "https://github.com/nullfirm/hjs.git"
